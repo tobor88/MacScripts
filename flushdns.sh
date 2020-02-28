@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/sh
 
 if [ "$1" == '-h' ]
 then
