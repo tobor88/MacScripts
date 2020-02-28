@@ -9,11 +9,11 @@ else
 	user=$(whoami)
 
 	killall -HUP mDNSResponder
-  echo "DNS cache has been flushed"
+  	echo "DNS cache has been flushed"
 
 	killall -HUP mDNSResponder
-  killall mDNSResponderHelper
-  dscacheutil -flushcache
-  echo "$device DNS cache has been cleared"
+  	killall mDNSResponderHelper
+  	dscacheutil -flushcache
+  	echo "$device DNS cache has been cleared"
 
 fi
